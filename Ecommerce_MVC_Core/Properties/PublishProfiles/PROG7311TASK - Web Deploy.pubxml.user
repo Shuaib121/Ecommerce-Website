@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYQRyL1CKN0ynfXcru9aFpwAAAAACAAAAAAAQZgAAAAEAACAAAADm6cRE4TZvbzQG9HRZWQb4deqtZnsk4joSSrP86pgyawAAAAAOgAAAAAIAACAAAACvQKJybjzAHV8QJJl28Ia0fEETqTM+3mWsuMZYRmYY0oAAAAATaUS/VPgA4V9fmLRf8BIVFHfmtpLlGrtz54BfU9fS50h0bOS74hkkeUmhZwAj8VtFYWpg0dM3AO6pD8q33N1jFu/h5DzK3tMmsBvQkHxW+tqnKx5+owxYIgjIhzKVzlza2KEloaGEkVdEX7Tl3J+Td9nsvWYhjg/2uStLv3ss70AAAAD2IF0N6Ko/ccnR7dELtDNwkMpzca9KwuiwoCNTYU3rEsS8K0k+UNNML/X5ltnQkQtQOHIFVAZ7mxkRLzckaV4/</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyCon">
+      <Value>Server=%28localdb%29\MSSQLLocalDB%3bDatabase=EcommerceDB%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
